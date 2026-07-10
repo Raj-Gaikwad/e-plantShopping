@@ -198,6 +198,8 @@ body {
 /* ProductList.css */
 
 .product-button {
+    width: 150px;
+    height: 45px;
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
@@ -217,6 +219,13 @@ body {
   
   .product-button.added-to-cart {
     background-color: grey; /* Grey when product is added */
+  }
+
+  .product-button:disabled {
+    background-color: grey;
+    color: white;
+    opacity: 1;          /* Prevent browser from fading it */
+    cursor: not-allowed;
   }
   @media (max-width: 1200px) {
     .product-card {

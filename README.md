@@ -1,1 +1,2 @@
 # coding-project-template
+An e-plant shopping website is an online platform where customers can browse, purchase, and have plants delivered to their homes. It offers a convenient way to buy indoor plants, outdoor plants, flowering plants, succulents, seeds, pots, fertilizers, and gardening tools without visiting a physical nursery.

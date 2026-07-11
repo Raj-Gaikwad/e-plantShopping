@@ -51,7 +51,6 @@ const CartItem = ({ onContinueShopping }) => {
         return (parseFloat(item.cost.slice(1)) * item.quantity).toFixed(2);
     };
 
-
     return (
         <div className="cart-container">
             <h2 style={{ color: 'black' }}>Total Cart Amount: ${calculateTotalAmount()}</h2>
